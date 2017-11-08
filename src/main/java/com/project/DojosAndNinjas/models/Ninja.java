@@ -32,7 +32,6 @@ public class Ninja{
 	@Column(updatable=false)
 	@DateTimeFormat(pattern="MM:dd:yyyy HH:mm:ss")
 	private Date createdAt;
-	@Column(updatable=false)
 	@DateTimeFormat(pattern="MM:dd:yyyy HH:mm:ss")
 	private Date updatedAt;
 	@ManyToOne(fetch = FetchType.EAGER)

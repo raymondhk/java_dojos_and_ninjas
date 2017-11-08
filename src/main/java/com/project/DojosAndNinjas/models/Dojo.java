@@ -31,7 +31,6 @@ public class Dojo{
 	@Column(updatable=false)
 	@DateTimeFormat(pattern="MM:dd:yyyy HH:mm:ss")
 	private Date createdAt;
-	@Column(updatable=false)
 	@DateTimeFormat(pattern="MM:dd:yyyy HH:mm:ss")
 	private Date updatedAt;
 	@OneToMany(mappedBy="dojo", fetch = FetchType.EAGER)
